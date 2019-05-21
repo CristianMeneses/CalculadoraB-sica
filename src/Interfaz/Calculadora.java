@@ -169,14 +169,14 @@ public class Calculadora extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 15, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -240,7 +240,7 @@ public class Calculadora extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -358,7 +358,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "1");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -374,7 +374,7 @@ public class Calculadora extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "2");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -384,7 +384,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "3");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -394,7 +394,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "4");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -404,7 +404,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "5");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -414,7 +414,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "6");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -424,7 +424,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "7");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -434,7 +434,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "8");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -444,7 +444,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "9");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
@@ -454,7 +454,7 @@ public class Calculadora extends javax.swing.JFrame {
     private void jButton0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton0ActionPerformed
         // TODO add your handling code here:
         String Texto = jLabel1.getText();
-        if (Texto.length() < 22) {
+        if (Texto.length() < 13) {
             jLabel1.setText(Texto + "0");
         } else {
             JOptionPane.showMessageDialog(rootPane, "Hay demasiados numeros");
